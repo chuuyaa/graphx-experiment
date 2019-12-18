@@ -18,6 +18,16 @@ import scala.io.Source
 
 object sparklingGraphTwitter extends Serializable {
 
+//  var path_10k = "/user/hadoop/data/graphx/10k.txt";
+//  var path_15k = "/user/hadoop/data/graphx/15k.txt";
+//  var path_20k = "/user/hadoop/data/graphx/20k.txt";
+//  var path_30k = "/user/hadoop/data/graphx/30k.txt";
+//  var path_40k = "/user/hadoop/data/graphx/40k.txt";
+//  var path_50k = "/user/hadoop/data/graphx/50k.txt";
+//  var path_100k = "/user/hadoop/data/graphx/100k.txt";
+//  var path_1mill = "/user/hadoop/data/graphx/twitter.txt";
+//  var path_small = "/user/hadoop/data/graphx/twitter-small.txt";
+
   var path_10k = "/Users/User/IdeaProject/graphx-experiment/input/10k.txt";
   var path_15k = "/Users/User/IdeaProject/graphx-experiment/input/15k.txt";
   var path_20k = "/Users/User/IdeaProject/graphx-experiment/input/20k.txt";
@@ -28,10 +38,11 @@ object sparklingGraphTwitter extends Serializable {
   var path_1mill = "/Users/User/IdeaProject/graphx-experiment/input/twitter.txt";
   var path_small = "/Users/User/IdeaProject/graphx-experiment/input/twitter-small.txt";
 
-  var path = path_small
+  var path = path_10k
   def main(args: Array[String]): Unit = {
 
     // Spark entry point
+//    val spark = SparkSession.builder().master("local[*]").config("spark.sql.warehouse.dir", "file:///home/hadoop/graphx-experiment/").getOrCreate().sparkContext
     val spark = SparkSession.builder().master("local[*]").config("spark.sql.warehouse.dir", "file:///Users/User/IdeaProject/graphx-experiment/").getOrCreate().sparkContext
 
 //        generateGraph(spark)
@@ -39,23 +50,23 @@ object sparklingGraphTwitter extends Serializable {
         computeSimilarityIndex(pagerankGraph)
   }
 
-  def filter_constraints(constraintsfile: String, similarities: Graph[Double,Double]) = {
-    //read constraints file
-    val sc = SparkSession.builder().master("local[*]").config("spark.sql.warehouse.dir", "file:///Users/User/IdeaProject/graphx-experiment/").getOrCreate().sparkContext
-    val f = sc.textFile(constraintsfile).map{l => val lineSplits = l.split("\\s+")
-      val src = lineSplits(0).trim.toLong
-      val dst = lineSplits(1).trim.toLong
-      val label = lineSplits(2).trim.toDouble
-      (src,dst,label)}
-    //filter with condition, if label -1, update similarity value of the edges by subtracting one and vice versa
-    val ss = similarities.edges.map(e=> (e.srcId.toLong, e.dstId.toLong, e.attr))
-    val newRdd = f.map(x => ((x._1,x._2), x._3))
-    val newsimRdd = ss.map(x => ((x._1,x._2), x._3))
-    val joined = newsimRdd.join(newRdd)
-    // return rdd of long, long, double of new similarity value
-    val t = joined.map(x => (x._1, (x._2._1+x._2._2)))
-    t.map(x=> (x._1._1, x._1._2, x._2))
-  }
+//  def filter_constraints(constraintsfile: String, similarities: Graph[Double,Double]) = {
+//    //read constraints file
+//    val sc = SparkSession.builder().master("local[*]").config("spark.sql.warehouse.dir", "file:///Users/User/IdeaProject/graphx-experiment/").getOrCreate().sparkContext
+//    val f = sc.textFile(constraintsfile).map{l => val lineSplits = l.split("\\s+")
+//      val src = lineSplits(0).trim.toLong
+//      val dst = lineSplits(1).trim.toLong
+//      val label = lineSplits(2).trim.toDouble
+//      (src,dst,label)}
+//    //filter with condition, if label -1, update similarity value of the edges by subtracting one and vice versa
+//    val ss = similarities.edges.map(e=> (e.srcId.toLong, e.dstId.toLong, e.attr))
+//    val newRdd = f.map(x => ((x._1,x._2), x._3))
+//    val newsimRdd = ss.map(x => ((x._1,x._2), x._3))
+//    val joined = newsimRdd.join(newRdd)
+//    // return rdd of long, long, double of new similarity value
+//    val t = joined.map(x => (x._1, (x._2._1+x._2._2)))
+//    t.map(x=> (x._1._1, x._1._2, x._2))
+//  }
 
   def compare(long1: Long, long2: Long, d: Double, RDD: RDD[(Long, Long, Double)]) ={
     RDD.foreach(
@@ -118,7 +129,6 @@ object sparklingGraphTwitter extends Serializable {
 
     val combined2Edges = updateGraphProperty(cnEdges, aaEdges)
     val combined3Edges = updateGraphProperty(combined2Edges, raEdges)
-//    combined3Edges.collect().foreach(println(_))
 
     splitTrainTestGraph(combined3Edges)
 
@@ -150,7 +160,6 @@ object sparklingGraphTwitter extends Serializable {
     aaCombinedGraph.triplets.foreach(println(_))
 
 //    filter_constraints(path_small, aaCombinedGraph)
-
 
     val adamicadarModel =
       new PowerIterationClusteringNew()
@@ -187,19 +196,6 @@ object sparklingGraphTwitter extends Serializable {
       */
     //    println("COMMON NEIGHBOURS TRIPLETS :")
     //    commonNeighbours.edges.foreach(println(_))
-    //
-    //    println("ADAMIC ADAR TRIPLETS :")
-    //    adamicAdarGraph.edges.foreach(println(_))
-    //
-    //    println("RESOURCE ALLOCATION TRIPLETS :")
-    //    resourceAllocationGraph.edges.foreach(println(_))
-    //
-    //    println("PREFERENTIAL ATTACHMENT TRIPLETS :")
-    //    preferentialAttacmentGraph.edges.foreach(println(_))
-    //
-    //    println("JACCARD INDEX TRIPLETS :")
-    //    jaccardIndexGraph.edges.foreach(println(_))
-    //
   }
 
 }
