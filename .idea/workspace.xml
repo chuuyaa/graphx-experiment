@@ -1,250 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e7ef6548-b0f4-4e72-b3ad-56c15afd802d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_univocity_univocity_parsers_1_5_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/images/Difference.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/images/Expansion.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/images/Inflation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/images/MCL.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/build.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/plugins.sbt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/project/target/config-classes/$474f6973c11e3af9daf7.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/project/target/config-classes/$6ca47b69c541407dde58.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/project/target/config-classes/$904e79612887fc2d7ebf.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/config-classes/$0c7cf5ea5131b5461cab.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/config-classes/$1155eb87deda20440642.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/config-classes/$120a31aba36d668d34e9.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/config-classes/$3028046c456b6a94d9dc.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/config-classes/$542c7a43136dabf65e01.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/config-classes/$8a02ed3b002dde690b2d.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/config-classes/$924dfea642a45e04f977.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/config-classes/$a1aefd4c38cf98b246bb.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/config-classes/$cbfbe040d394a0e9a5d3.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/config-classes/$da4c1b3d8b813861d1d2.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/config-classes/$fbbc7bdc10f9e7c125cf.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/config-classes/$fcb712841868d5f2667f.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/resolution-cache/default/mcl_spark-master-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/resolution-cache/default/mcl_spark-master-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/resolution-cache/reports/default-mcl_spark-master-build-compile-internal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/resolution-cache/reports/default-mcl_spark-master-build-compile.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/resolution-cache/reports/default-mcl_spark-master-build-docs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/resolution-cache/reports/default-mcl_spark-master-build-optional.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/resolution-cache/reports/default-mcl_spark-master-build-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/resolution-cache/reports/default-mcl_spark-master-build-pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/resolution-cache/reports/default-mcl_spark-master-build-provided.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/resolution-cache/reports/default-mcl_spark-master-build-runtime-internal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/resolution-cache/reports/default-mcl_spark-master-build-runtime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/resolution-cache/reports/default-mcl_spark-master-build-scala-tool.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/resolution-cache/reports/default-mcl_spark-master-build-sources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/resolution-cache/reports/default-mcl_spark-master-build-test-internal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/resolution-cache/reports/default-mcl_spark-master-build-test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/resolution-cache/reports/ivy-report.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/resolution-cache/reports/ivy-report.xsl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/$global/$global/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/input_dsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/$global/ivySbt/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/$global/projectDescriptors/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/$global/updateSbtClassifiers/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/compile/$global/$global/discoveredMainClasses/data" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/compile/compile/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/compile/compileIncremental/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/compile/copyResources/$global/streams/copy-resources" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/compile/copyResources/$global/streams/out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/compile/exportedProducts/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/compile/internalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/compile/unmanagedClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/compile/unmanagedJars/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/runtime/exportedProducts/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/runtime/fullClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/runtime/unmanagedClasspath/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/runtime/unmanagedJars/$global/streams/export" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/src/main/scala/Main.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/src/main/scala/org/apache/spark/mllib/clustering/MCL.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/src/main/scala/org/apache/spark/mllib/clustering/MCLModel.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/src/main/scala/org/apache/spark/mllib/clustering/MCLUtils.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/graphx/clustering/Constraints.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/graphx/clustering/PowerIterationClusteringNew.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/graphx/clustering/TransitiveClosure.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/graphx/indices/CommonResourceAllocation.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/graphx/pagerank.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/graphx/scalableLPTwitter.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/graphx/testAdjacencyMatrix.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__it_unimi_dsi_fastutil_8_1_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__it_unimi_dsi_fastutil_7_0_8_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__ml_sparkling_sparkling_graph_api_2_11_0_0_8_SNAPSHOT_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__ml_sparkling_sparkling_graph_api_2_11_0_0_7_SNAPSHOT_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__ml_sparkling_sparkling_graph_examples_2_11_0_0_8_SNAPSHOT_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__ml_sparkling_sparkling_graph_examples_2_11_0_0_7_SNAPSHOT_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__ml_sparkling_sparkling_graph_experiments_2_11_0_0_8_SNAPSHOT_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__ml_sparkling_sparkling_graph_experiments_2_11_0_0_7_SNAPSHOT_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__ml_sparkling_sparkling_graph_generators_2_11_0_0_8_SNAPSHOT_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__ml_sparkling_sparkling_graph_generators_2_11_0_0_7_SNAPSHOT_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__ml_sparkling_sparkling_graph_loaders_2_11_0_0_8_SNAPSHOT_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__ml_sparkling_sparkling_graph_loaders_2_11_0_0_7_SNAPSHOT_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__ml_sparkling_sparkling_graph_operators_2_11_0_0_8_SNAPSHOT_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__ml_sparkling_sparkling_graph_operators_2_11_0_0_7_SNAPSHOT_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/graphx-experiment-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/graphx-experiment-build.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/graphx-experiment.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="e7ef6548-b0f4-4e72-b3ad-56c15afd802d" name="Default Changelist" comment="new input directory">
+      <change afterPath="$PROJECT_DIR$/input/100k.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/10k.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/15k.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/20k.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/30k.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/40k.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/50.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/50k.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/twitter-small-labeled.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/users-small.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3ca6a7467e438bd157f8$$anonfun$$sbtdef$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/config-classes/$3ca6a7467e438bd157f8$$anonfun$$sbtdef$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3ca6a7467e438bd157f8$.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/config-classes/$3ca6a7467e438bd157f8$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3ca6a7467e438bd157f8.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/config-classes/$3ca6a7467e438bd157f8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$65e3da19e040bf7fffb1$$anonfun$$sbtdef$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/config-classes/$65e3da19e040bf7fffb1$$anonfun$$sbtdef$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$65e3da19e040bf7fffb1$.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/config-classes/$65e3da19e040bf7fffb1$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$65e3da19e040bf7fffb1.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/config-classes/$65e3da19e040bf7fffb1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a57911a37396ee655975$$anonfun$$sbtdef$1$$anonfun$apply$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a57911a37396ee655975$$anonfun$$sbtdef$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a57911a37396ee655975$$anonfun$$sbtdef$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a57911a37396ee655975$$anonfun$$sbtdef$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a57911a37396ee655975$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a57911a37396ee655975.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a57911a37396ee655975.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a6781502d99b7d2938d3$$anonfun$$sbtdef$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/config-classes/$a6781502d99b7d2938d3$$anonfun$$sbtdef$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a6781502d99b7d2938d3$.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/config-classes/$a6781502d99b7d2938d3$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$bb98ad5771d960a2d153$$anonfun$$sbtdef$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$bb98ad5771d960a2d153$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$bb98ad5771d960a2d153.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$bb98ad5771d960a2d153.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$bd0577cea564ed422435$$anonfun$$sbtdef$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/config-classes/$bd0577cea564ed422435$$anonfun$$sbtdef$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$bd0577cea564ed422435$.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/config-classes/$bd0577cea564ed422435$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$bd0577cea564ed422435.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/config-classes/$bd0577cea564ed422435.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$c38752067d3d55a3e40e$$anonfun$$sbtdef$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$c38752067d3d55a3e40e$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$c38752067d3d55a3e40e.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$c38752067d3d55a3e40e.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d89732bbc44277c4f07c$$anonfun$$sbtdef$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d89732bbc44277c4f07c$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d89732bbc44277c4f07c.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d89732bbc44277c4f07c.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e461ebc1804b307151d6$$anonfun$$sbtdef$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e461ebc1804b307151d6$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e461ebc1804b307151d6.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e461ebc1804b307151d6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/graphx-experiment-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/graphx-experiment-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/graphx-experiment-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/graphx-experiment-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-docs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-docs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-sources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-sources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/graphx/indices/OperatorsNew.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/graphx/indices/OperatorsNew.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/graphx/sparklingGraphTwitter.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/graphx/sparklingGraphTwitter.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/graphx/twitter-small.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input/twitter-small.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/graphx/twitter.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input/twitter.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/graphx/twitter1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/input/twitter1.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/graphx/users ori.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input/users ori.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/graphx/users.csv" beforeDir="false" afterPath="$PROJECT_DIR$/input/users.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/graphx/users.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input/users.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/graphx/verts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input/verts.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/default/graphx-experiment$sources_2.11/1.0/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/default/graphx-experiment$sources_2.11/1.0/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/default/graphx-experiment$sources_2.11/1.0/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/default/graphx-experiment$sources_2.11/1.0/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/default/graphx-experiment_2.11/1.0/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/default/graphx-experiment_2.11/1.0/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/default/graphx-experiment_2.11/1.0/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/default/graphx-experiment_2.11/1.0/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-docs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-docs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-sources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-sources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-docs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-docs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-sources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-sources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.12-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.12-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.12-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.12-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.12-docs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.12-docs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.12-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.12-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.12-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.12-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.12-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.12-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.12-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.12-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.12-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.12-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.12-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.12-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.12-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.12-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.12-sources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.12-sources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.12-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.12-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.12-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.12-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/OperatorsNew$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/OperatorsNew$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/OperatorsNew$DSL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/OperatorsNew$DSL.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/OperatorsNew$ModularityDSL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/OperatorsNew$ModularityDSL.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/OperatorsNew.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/OperatorsNew.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/ResourceAllocation$$anonfun$computeValue$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/ResourceAllocation$$anonfun$computeValue$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter$$anonfun$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter$$anonfun$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter$$anonfun$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter$$anonfun$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter$$anonfun$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter$$anonfun$graphxProcessVOne$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter$$anonfun$graphxProcessVOne$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter$$anonfun$graphxProcessVOne$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter$$anonfun$graphxProcessVOne$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter$$anonfun$graphxProcessVOne$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter$$anonfun$graphxProcessVOne$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter$$typecreator5$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/twitter-small.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/twitter.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/twitter1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/users ori.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/users.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/users.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/verts.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/ssExtractDependencies/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/ssExtractDependencies/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -318,13 +86,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="scala" value="7827" />
-          <entry key="txt" value="2" />
+          <entry key="txt" value="26" />
           <entry key="vmoptions" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="13" />
+          <entry key="PLAIN_TEXT" value="37" />
           <entry key="Scala" value="7827" />
         </counts>
       </usages-collector>
@@ -376,7 +144,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/graphx/sparklingGraphTwitter.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="141">
-              <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="e#16#32#0" expanded="true" />
               </folding>
@@ -484,6 +252,38 @@
             <path>
               <item name="graphx-experiment" type="b2602c69:ProjectViewProjectNode" />
               <item name="graphx-experiment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graphx-experiment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graphx-experiment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="graphanalysis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graphx-experiment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graphx-experiment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="graphx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graphx-experiment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graphx-experiment" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="MCL_spark-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graphx-experiment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graphx-experiment" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -504,7 +304,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576666410758" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576666534924" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../k-means-clustering" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -623,6 +423,14 @@
       <option name="presentableId" value="Default" />
       <updated>1574257282170</updated>
     </task>
+    <task id="LOCAL-00001" summary="t">
+      <created>1576666504485</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576666504485</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -651,9 +459,9 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.33095577" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32907802" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50098234" side_tool="true" weight="0.31375358" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32907802" />
       <window_info anchor="bottom" id="Build" order="10" sideWeight="0.49932885" weight="0.32907802" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32340425" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="12" />
@@ -703,6 +511,22 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="t" />
+    <option name="LAST_COMMIT_MESSAGE" value="t" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/graphx/sparklingGraphTwitter.scala</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -963,7 +787,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/graphx/sparklingGraphTwitter.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
-          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
           <folding>
             <element signature="e#16#32#0" expanded="true" />
           </folding>
