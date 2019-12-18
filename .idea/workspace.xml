@@ -1,8 +1,250 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1804d147-4788-4dcb-923f-9168c7aa2fb0" name="Default Changelist" comment="">
+    <list default="true" id="e7ef6548-b0f4-4e72-b3ad-56c15afd802d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_univocity_univocity_parsers_1_5_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/images/Difference.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/images/Expansion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/images/Inflation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/images/MCL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/build.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/plugins.sbt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/project/target/config-classes/$474f6973c11e3af9daf7.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/project/target/config-classes/$6ca47b69c541407dde58.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/project/target/config-classes/$904e79612887fc2d7ebf.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/config-classes/$0c7cf5ea5131b5461cab.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/config-classes/$1155eb87deda20440642.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/config-classes/$120a31aba36d668d34e9.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/config-classes/$3028046c456b6a94d9dc.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/config-classes/$542c7a43136dabf65e01.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/config-classes/$8a02ed3b002dde690b2d.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/config-classes/$924dfea642a45e04f977.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/config-classes/$a1aefd4c38cf98b246bb.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/config-classes/$cbfbe040d394a0e9a5d3.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/config-classes/$da4c1b3d8b813861d1d2.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/config-classes/$fbbc7bdc10f9e7c125cf.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/config-classes/$fcb712841868d5f2667f.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/resolution-cache/default/mcl_spark-master-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/resolution-cache/default/mcl_spark-master-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/resolution-cache/reports/default-mcl_spark-master-build-compile-internal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/resolution-cache/reports/default-mcl_spark-master-build-compile.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/resolution-cache/reports/default-mcl_spark-master-build-docs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/resolution-cache/reports/default-mcl_spark-master-build-optional.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/resolution-cache/reports/default-mcl_spark-master-build-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/resolution-cache/reports/default-mcl_spark-master-build-pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/resolution-cache/reports/default-mcl_spark-master-build-provided.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/resolution-cache/reports/default-mcl_spark-master-build-runtime-internal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/resolution-cache/reports/default-mcl_spark-master-build-runtime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/resolution-cache/reports/default-mcl_spark-master-build-scala-tool.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/resolution-cache/reports/default-mcl_spark-master-build-sources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/resolution-cache/reports/default-mcl_spark-master-build-test-internal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/resolution-cache/reports/default-mcl_spark-master-build-test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/resolution-cache/reports/ivy-report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/resolution-cache/reports/ivy-report.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/$global/$global/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/input_dsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/$global/ivySbt/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/$global/projectDescriptors/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/$global/updateSbtClassifiers/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/compile/$global/$global/discoveredMainClasses/data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/compile/compile/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/compile/compileIncremental/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/compile/copyResources/$global/streams/copy-resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/compile/copyResources/$global/streams/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/compile/exportedProducts/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/compile/internalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/compile/unmanagedClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/compile/unmanagedJars/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/runtime/exportedProducts/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/runtime/fullClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/runtime/unmanagedClasspath/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/project/target/streams/runtime/unmanagedJars/$global/streams/export" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/src/main/scala/Main.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/src/main/scala/org/apache/spark/mllib/clustering/MCL.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/src/main/scala/org/apache/spark/mllib/clustering/MCLModel.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MCL_spark-master/src/main/scala/org/apache/spark/mllib/clustering/MCLUtils.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/graphx/clustering/Constraints.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/graphx/clustering/PowerIterationClusteringNew.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/graphx/clustering/TransitiveClosure.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/graphx/indices/CommonResourceAllocation.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/graphx/pagerank.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/graphx/scalableLPTwitter.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/graphx/testAdjacencyMatrix.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__it_unimi_dsi_fastutil_8_1_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__it_unimi_dsi_fastutil_7_0_8_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__ml_sparkling_sparkling_graph_api_2_11_0_0_8_SNAPSHOT_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__ml_sparkling_sparkling_graph_api_2_11_0_0_7_SNAPSHOT_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__ml_sparkling_sparkling_graph_examples_2_11_0_0_8_SNAPSHOT_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__ml_sparkling_sparkling_graph_examples_2_11_0_0_7_SNAPSHOT_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__ml_sparkling_sparkling_graph_experiments_2_11_0_0_8_SNAPSHOT_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__ml_sparkling_sparkling_graph_experiments_2_11_0_0_7_SNAPSHOT_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__ml_sparkling_sparkling_graph_generators_2_11_0_0_8_SNAPSHOT_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__ml_sparkling_sparkling_graph_generators_2_11_0_0_7_SNAPSHOT_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__ml_sparkling_sparkling_graph_loaders_2_11_0_0_8_SNAPSHOT_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__ml_sparkling_sparkling_graph_loaders_2_11_0_0_7_SNAPSHOT_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__ml_sparkling_sparkling_graph_operators_2_11_0_0_8_SNAPSHOT_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__ml_sparkling_sparkling_graph_operators_2_11_0_0_7_SNAPSHOT_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/graphx-experiment-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/graphx-experiment-build.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/graphx-experiment.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3ca6a7467e438bd157f8$$anonfun$$sbtdef$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/config-classes/$3ca6a7467e438bd157f8$$anonfun$$sbtdef$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3ca6a7467e438bd157f8$.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/config-classes/$3ca6a7467e438bd157f8$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3ca6a7467e438bd157f8.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/config-classes/$3ca6a7467e438bd157f8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$65e3da19e040bf7fffb1$$anonfun$$sbtdef$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/config-classes/$65e3da19e040bf7fffb1$$anonfun$$sbtdef$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$65e3da19e040bf7fffb1$.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/config-classes/$65e3da19e040bf7fffb1$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$65e3da19e040bf7fffb1.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/config-classes/$65e3da19e040bf7fffb1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a57911a37396ee655975$$anonfun$$sbtdef$1$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a57911a37396ee655975$$anonfun$$sbtdef$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a57911a37396ee655975$$anonfun$$sbtdef$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a57911a37396ee655975$$anonfun$$sbtdef$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a57911a37396ee655975$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a57911a37396ee655975.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a57911a37396ee655975.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a6781502d99b7d2938d3$$anonfun$$sbtdef$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/config-classes/$a6781502d99b7d2938d3$$anonfun$$sbtdef$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a6781502d99b7d2938d3$.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/config-classes/$a6781502d99b7d2938d3$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$bb98ad5771d960a2d153$$anonfun$$sbtdef$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$bb98ad5771d960a2d153$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$bb98ad5771d960a2d153.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$bb98ad5771d960a2d153.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$bd0577cea564ed422435$$anonfun$$sbtdef$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/config-classes/$bd0577cea564ed422435$$anonfun$$sbtdef$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$bd0577cea564ed422435$.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/config-classes/$bd0577cea564ed422435$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$bd0577cea564ed422435.class" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/config-classes/$bd0577cea564ed422435.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$c38752067d3d55a3e40e$$anonfun$$sbtdef$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$c38752067d3d55a3e40e$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$c38752067d3d55a3e40e.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$c38752067d3d55a3e40e.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d89732bbc44277c4f07c$$anonfun$$sbtdef$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d89732bbc44277c4f07c$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d89732bbc44277c4f07c.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d89732bbc44277c4f07c.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e461ebc1804b307151d6$$anonfun$$sbtdef$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e461ebc1804b307151d6$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e461ebc1804b307151d6.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$e461ebc1804b307151d6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/graphx-experiment-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/graphx-experiment-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/graphx-experiment-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/graphx-experiment-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-docs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-docs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-sources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-sources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/graphx/indices/OperatorsNew.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/graphx/indices/OperatorsNew.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/graphx/sparklingGraphTwitter.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/graphx/sparklingGraphTwitter.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/graphx/twitter-small.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input/twitter-small.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/graphx/twitter.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input/twitter.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/graphx/twitter1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/input/twitter1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/graphx/users ori.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input/users ori.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/graphx/users.csv" beforeDir="false" afterPath="$PROJECT_DIR$/input/users.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/graphx/users.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input/users.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/graphx/verts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input/verts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/default/graphx-experiment$sources_2.11/1.0/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/default/graphx-experiment$sources_2.11/1.0/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/default/graphx-experiment$sources_2.11/1.0/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/default/graphx-experiment$sources_2.11/1.0/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/default/graphx-experiment_2.11/1.0/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/default/graphx-experiment_2.11/1.0/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/default/graphx-experiment_2.11/1.0/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/default/graphx-experiment_2.11/1.0/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-docs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-docs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-sources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-sources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-docs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-docs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-sources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-sources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.12-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.12-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.12-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.12-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.12-docs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.12-docs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.12-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.12-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.12-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.12-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.12-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.12-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.12-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.12-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.12-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.12-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.12-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.12-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.12-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.12-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.12-sources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.12-sources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.12-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.12-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.12-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.12-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/OperatorsNew$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/OperatorsNew$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/OperatorsNew$DSL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/OperatorsNew$DSL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/OperatorsNew$ModularityDSL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/OperatorsNew$ModularityDSL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/OperatorsNew.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/OperatorsNew.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/ResourceAllocation$$anonfun$computeValue$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/ResourceAllocation$$anonfun$computeValue$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter$$anonfun$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter$$anonfun$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter$$anonfun$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter$$anonfun$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter$$anonfun$graphxProcessVOne$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter$$anonfun$graphxProcessVOne$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter$$anonfun$graphxProcessVOne$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter$$anonfun$graphxProcessVOne$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter$$anonfun$graphxProcessVOne$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter$$anonfun$graphxProcessVOne$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter$$typecreator5$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/twitter-small.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/twitter.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/twitter1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/users ori.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/users.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/users.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/verts.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/ssExtractDependencies/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/ssExtractDependencies/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,108 +261,157 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="SBT">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="graphx-experiment" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-20337380">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="1" />
-          <entry key="crc" value="1" />
-          <entry key="csv" value="5" />
-          <entry key="java" value="5" />
-          <entry key="json" value="11" />
-          <entry key="part-00000" value="2" />
-          <entry key="part-00001" value="1" />
-          <entry key="sbt" value="3" />
-          <entry key="sc" value="3" />
-          <entry key="scala" value="46" />
-          <entry key="txt" value="16" />
+          <entry key="class" value="3" />
+          <entry key="iml" value="1" />
+          <entry key="sbt" value="2" />
+          <entry key="scala" value="50" />
+          <entry key="txt" value="8" />
+          <entry key="vmoptions" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="1" />
-          <entry key="CSV" value="5" />
-          <entry key="JAVA" value="5" />
-          <entry key="JSON" value="11" />
-          <entry key="PLAIN_TEXT" value="20" />
+          <entry key="CLASS" value="3" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="PLAIN_TEXT" value="10" />
           <entry key="Scala" value="49" />
-          <entry key="sbt" value="3" />
+          <entry key="sbt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="sbt" value="216" />
-          <entry key="sc" value="721" />
-          <entry key="scala" value="4638" />
-          <entry key="txt" value="11" />
+          <entry key="scala" value="7827" />
+          <entry key="txt" value="2" />
+          <entry key="vmoptions" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="11" />
-          <entry key="Scala" value="5359" />
-          <entry key="sbt" value="216" />
+          <entry key="PLAIN_TEXT" value="13" />
+          <entry key="Scala" value="7827" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/graphx/sparklingGraphTwitter.scala">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/graphx/clustering/PowerIterationClusteringNew.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-68">
-              <caret line="65" column="28" lean-forward="true" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
+            <state relative-caret-position="2652">
+              <caret line="184" column="27" selection-start-line="184" selection-start-column="27" selection-end-line="184" selection-end-column="27" />
               <folding>
-                <element signature="e#16#78#0" expanded="true" />
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#845#868#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/graphx/indices/OperatorsNew.scala">
+        <entry file="file://$PROJECT_DIR$/input/twitter-small-labeled.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
+            <state relative-caret-position="408">
+              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-core_2.11/srcs/spark-core_2.11-2.3.0-sources.jar!/org/apache/spark/rdd/RDD.scala">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-graphx_2.11/srcs/spark-graphx_2.11-2.3.0-sources.jar!/org/apache/spark/graphx/Graph.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-208">
-              <caret line="1489" column="7" selection-start-line="1489" selection-start-column="7" selection-end-line="1489" selection-end-column="7" />
+            <state relative-caret-position="8262">
+              <caret line="506" column="48" selection-start-line="506" selection-start-column="48" selection-end-line="506" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.sbt">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/graphx/clustering/Constraints.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="87" selection-start-line="17" selection-start-column="87" selection-end-line="17" selection-end-column="87" />
+            <state relative-caret-position="1479">
+              <caret line="87" column="17" selection-start-column="2" selection-end-line="100" selection-end-column="87" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/graphx/sparklingGraphTwitter.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+              <folding>
+                <element signature="e#16#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/input/twitter-small.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/input/users-small.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-core_2.11/srcs/spark-core_2.11-2.3.0-sources.jar!/org/apache/spark/rdd/PairRDDFunctions.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="10353">
+              <caret line="648" column="6" selection-start-line="648" selection-start-column="6" selection-end-line="648" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Scala Worksheet" />
-        <option value="Package Object" />
-      </list>
-    </option>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sparklingGrap</find>
+      <find>set</find>
+      <find>shortestpatht</find>
+      <find>left</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -128,30 +419,25 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/graphx/RunGraphXTwitter.sc" />
-        <option value="$PROJECT_DIR$/src/main/scala/graphx/berkeleyLab10example.sc" />
-        <option value="$PROJECT_DIR$/src/main/scala/graphx/graphxTwitter.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/graphx/graphxTwitterKUKURUKU.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/graphx/KUKURUKUgraphxTwitter.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/graphanalysis/RunGraph.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/graphx/RunGraphTwitter.scala" />
         <option value="$PROJECT_DIR$/build.sbt" />
-        <option value="$PROJECT_DIR$/src/main/scala/graphx/twitter-small.txt" />
-        <option value="$PROJECT_DIR$/src/main/scala/graphx/ResourceAllocation.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/graphx/OperatorsNew.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/graphx/similarityindices/ResourceAllocation.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/graphx/similarityindices/PreferentialAttachment.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/graphx/indices/PreferentialAttachment.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/graphx/indices/JaccardIndex.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/graphx/indices/OperatorsNew.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/graphx/sparklingGraphTwitter2.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/graphx/scalableLPTwitter.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/graphx/scalableLinkPredictionTwitter.scala" />
+        <option value="$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions" />
+        <option value="$PROJECT_DIR$/src/main/scala/graphx/indices/CommonResourceAllocation.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/graphx/clustering/TransitiveClosure.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/graphx/clustering/Constraints.scala" />
+        <option value="$PROJECT_DIR$/input/twitter-small-labeled.txt" />
+        <option value="$PROJECT_DIR$/src/main/scala/graphx/clustering/PowerIterationClusteringNew.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/graphx/sparklingGraphTwitter.scala" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="width" value="1359" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="93" />
+    <option name="y" value="132" />
+    <option name="width" value="970" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -159,6 +445,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -169,6 +456,16 @@
             <path>
               <item name="graphx-experiment" type="b2602c69:ProjectViewProjectNode" />
               <item name="graphx-experiment" type="462c0819:PsiDirectoryNode" />
+              <item name="input" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graphx-experiment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graphx-experiment" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graphx-experiment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graphx-experiment" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -187,34 +484,32 @@
             <path>
               <item name="graphx-experiment" type="b2602c69:ProjectViewProjectNode" />
               <item name="graphx-experiment" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="graphx-experiment" type="b2602c69:ProjectViewProjectNode" />
               <item name="graphx-experiment" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="graphanalysis" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="scala-2.11" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graphx-experiment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572336691960" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576666410758" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../k-means-clustering" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\User\IdeaProject\graphx-experiment\src\main\scala\graphx\similarityindices" />
       <recent name="C:\Users\User\IdeaProject\graphx-experiment\src\main\scala\graphx" />
     </key>
   </component>
@@ -231,61 +526,39 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.sparklingGraphTwitter">
-    <configuration name="KUKURUKUgraphxTwitter" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="graphx.KUKURUKUgraphxTwitter" />
-      <module name="graphx-experiment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="graphx.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="Unnamed" type="Application" factoryName="Application">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="graphx.scalableLinkPredictionTwitter" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/scala/graphx" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunGraph" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="graphanalysis.RunGraph" />
-      <module name="graphx-experiment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="graphanalysis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="graphx.scalableLinkPredictionTwitter" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/scala/graphx" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunGraphTwitter (1)" type="Application" factoryName="Application" temporary="true">
+    <configuration name="scalableLinkPRedictionTwitter" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="C:\jvm\jdk1.8.0_221\jre" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
       <option name="MAIN_CLASS_NAME" value="graphx.RunGraphTwitter" />
-      <module name="graphx-experiment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="graphx.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="berkeleyLab10example" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="graphx.berkeleyLab10example" />
-      <module name="graphx-experiment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="graphx.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="VM_PARAMETERS" value="-Xmx2048m -Xms1024m" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/scala/graphx" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="sparklingGraphTwitter" type="Application" factoryName="Application" temporary="true">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
       <option name="MAIN_CLASS_NAME" value="graphx.sparklingGraphTwitter" />
       <module name="graphx-experiment" />
+      <option name="VM_PARAMETERS" value="-Xms12912m" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/scala/graphx" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="graphx.*" />
@@ -297,19 +570,13 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.RunGraphTwitter (1)" />
-      <item itemvalue="Application.RunGraph" />
-      <item itemvalue="Application.berkeleyLab10example" />
-      <item itemvalue="Application.KUKURUKUgraphxTwitter" />
+      <item itemvalue="Application.scalableLinkPRedictionTwitter" />
+      <item itemvalue="Application.Unnamed" />
       <item itemvalue="Application.sparklingGraphTwitter" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.sparklingGraphTwitter" />
-        <item itemvalue="Application.RunGraphTwitter (1)" />
-        <item itemvalue="Application.RunGraph" />
-        <item itemvalue="Application.KUKURUKUgraphxTwitter" />
-        <item itemvalue="Application.berkeleyLab10example" />
       </list>
     </recent_temporary>
   </component>
@@ -340,7 +607,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$/build.sbt" value="3859162475" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="2021640795" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="813010423" />
       </map>
     </option>
@@ -350,68 +617,79 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1804d147-4788-4dcb-923f-9168c7aa2fb0" name="Default Changelist" comment="" />
-      <created>1571731895459</created>
+      <changelist id="e7ef6548-b0f4-4e72-b3ad-56c15afd802d" name="Default Changelist" comment="" />
+      <created>1574257282170</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1571731895459</updated>
+      <updated>1574257282170</updated>
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="0" width="1087" height="830" extended-state="0" />
+    <frame x="-3" y="-3" width="1542" height="830" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24050634" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12013423" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49016643" weight="0.25815603" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3328551" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5098336" side_tool="true" weight="0.38032788" />
-      <window_info anchor="bottom" id="Build" order="11" sideWeight="0.49932885" weight="0.32624114" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.48940998" weight="0.32765958" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="sbt" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1818792" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49016643" visible="true" weight="0.38865247" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35177305" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5098336" side_tool="true" weight="0.38032788" />
-      <window_info anchor="bottom" id="Build" order="11" sideWeight="0.49932885" weight="0.32624114" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.48940998" weight="0.32765958" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.33095577" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50098234" side_tool="true" weight="0.31375358" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Build" order="10" sideWeight="0.49932885" weight="0.32907802" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32340425" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="12" />
+      <window_info anchor="bottom" id="JProfiler" order="13" sideWeight="0.4990177" weight="0.3106383" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24930748" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="sbt" order="8" weight="0.3295302" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3925104" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32952926" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.33095577" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50098234" side_tool="true" weight="0.31375358" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Build" order="10" sideWeight="0.49932885" weight="0.32907802" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32624114" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="12" />
+      <window_info anchor="bottom" id="JProfiler" order="13" sideWeight="0.4990177" weight="0.3106383" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -419,353 +697,278 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="sbt" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="sbt" order="8" weight="0.3295302" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.0-sources.jar!/scala/package.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="103" column="6" selection-start-line="103" selection-start-column="6" selection-end-line="103" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.0-sources.jar!/scala/math/Ordering.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="217" column="6" selection-start-line="217" selection-start-column="6" selection-end-line="217" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-graphx_2.11/srcs/spark-graphx_2.11-2.3.0-sources.jar!/org/apache/spark/graphx/Graph.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="439" column="6" selection-start-line="439" selection-start-column="6" selection-end-line="439" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/graphx/KUKURUKUgraphxTwitter.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-          <folding>
-            <element signature="e#16#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/graphx/berkeleyLab10example.sc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="29" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/ml.sparkling/sparkling-graph-api_2.11/srcs/sparkling-graph-api_2.11-0.0.8-SNAPSHOT-sources.jar!/ml/sparkling/graph/api/operators/measures/VertexMeasureConfiguration.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.0-sources.jar!/scala/Predef.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4862">
-          <caret line="299" column="62" selection-start-line="299" selection-start-column="62" selection-end-line="299" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-graphx_2.11/srcs/spark-graphx_2.11-2.3.0-sources.jar!/org/apache/spark/graphx/GraphOps.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="436" column="5" lean-forward="true" selection-start-line="436" selection-start-column="5" selection-end-line="436" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/it.unimi.dsi/fastutil/srcs/fastutil-8.1.0-sources.jar!/it/unimi/dsi/fastutil/longs/LongOpenHashSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/graphx/twitter1.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/graphx/users.txt">
-      <provider editor-type-id="LargeFileEditor">
-        <state relative-caret-position="102">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="9" selection-start-line="2" selection-end-line="2" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/graphx/twitter-small.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="18" lean-forward="true" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/graphx/package.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/graphx/sparklingGraphTwitter2.scala" />
+    <entry file="file://$PROJECT_DIR$/graphx-experiment.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/ml.sparkling/sparkling-graph-operators_2.11/srcs/sparkling-graph-operators_2.11-0.0.8-SNAPSHOT-sources.jar!/ml/sparkling/graph/operators/OperatorsDSL.scala">
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="75" selection-end-column="5" />
-          <folding>
-            <element signature="e#38#119#0" expanded="true" />
-          </folding>
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/graphx/twitter.txt">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="408">
-          <caret line="49335" column="16" lean-forward="true" selection-start-line="49335" selection-start-column="16" selection-end-line="49335" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/ml.sparkling/sparkling-graph-api_2.11/srcs/sparkling-graph-api_2.11-0.0.8-SNAPSHOT-sources.jar!/ml/sparkling/graph/api/operators/measures/EdgeMeasure.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/graphx/scalableLinkPredictionTwitter.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="51" column="6" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
+        <state relative-caret-position="69">
+          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input/50.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/graphx/indices/ResourceAllocation.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.0-sources.jar!/scala/collection/TraversableOnce.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="279" column="21" lean-forward="true" selection-start-line="279" selection-start-column="21" selection-end-line="279" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/graphx/ResourceAllocation.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
-          <folding>
-            <element signature="e#16#76#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/ml.sparkling/sparkling-graph-operators_2.11/srcs/sparkling-graph-operators_2.11-0.0.8-SNAPSHOT-sources.jar!/ml/sparkling/graph/operators/measures/edge/AdamicAdar.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="61" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
-          <folding>
-            <element signature="e#52#112#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/graphx/OperatorsNew.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
-          <caret line="74" column="13" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="13" />
-          <folding>
-            <element signature="e#16#164#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/it.unimi.dsi/fastutil/srcs/fastutil-8.1.0-sources.jar!/it/unimi/dsi/fastutil/longs/Long2ObjectOpenHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5627">
-          <caret line="1095" column="19" selection-start-line="1095" selection-start-column="19" selection-end-line="1095" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/graphx/RunGraphTwitter.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="99" column="25" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="25" />
-          <folding>
-            <element signature="e#16#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/graphanalysis/RunGraph.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="733">
-          <caret line="63" column="32" lean-forward="true" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
-          <folding>
-            <element signature="e#23#59#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="208">
+          <caret line="71" column="51" selection-start-line="71" selection-start-column="48" selection-end-line="71" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/graphx/indices/JaccardIndex.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-          <folding>
-            <element signature="e#24#84#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/ml.sparkling/sparkling-graph-operators_2.11/srcs/sparkling-graph-operators_2.11-0.0.8-SNAPSHOT-sources.jar!/ml/sparkling/graph/operators/measures/utils/CollectionsUtils.scala">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
           <folding>
-            <element signature="e#53#136#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testOutV1.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testOut.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testOutV.txt/part-00000">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testOutV.txt/part-00001">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testOUTPUT.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-core_2.11/srcs/spark-core_2.11-2.3.0-sources.jar!/org/apache/spark/rdd/RDD.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-208">
-          <caret line="1489" column="7" selection-start-line="1489" selection-start-column="7" selection-end-line="1489" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/graphx/indices/ResourceAllocation.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="69" lean-forward="true" selection-start-line="11" selection-start-column="69" selection-end-line="11" selection-end-column="69" />
-          <folding>
             <element signature="e#24#84#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/ml.sparkling/sparkling-graph-operators_2.11/srcs/sparkling-graph-operators_2.11-0.0.8-SNAPSHOT-sources.jar!/ml/sparkling/graph/operators/measures/utils/NeighboursUtils.scala">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/ml.sparkling/sparkling-graph-operators_2.11/srcs/sparkling-graph-operators_2.11-0.0.7-SNAPSHOT-sources.jar!/ml/sparkling/graph/operators/algorithms/shortestpaths/ShortestPathsAlgorithm.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/it.unimi.dsi/fastutil/jars/fastutil-7.0.8.jar!/it/unimi/dsi/fastutil/longs/Long2ObjectOpenHashMap.class">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/graphx/indices/PreferentialAttachment.scala">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/ml.sparkling/sparkling-graph-operators_2.11/srcs/sparkling-graph-operators_2.11-0.0.7-SNAPSHOT-sources.jar!/ml/sparkling/graph/operators/measures/utils/CollectionsUtils.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-          <folding>
-            <element signature="e#24#84#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/ml.sparkling/sparkling-graph-operators_2.11/srcs/sparkling-graph-operators_2.11-0.0.8-SNAPSHOT-sources.jar!/ml/sparkling/graph/operators/measures/edge/CommonNeighbours.scala">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.0-sources.jar!/scala/collection/GenSetLike.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="34" />
-          <folding>
-            <element signature="e#52#112#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="729">
+          <caret line="51" column="6" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/ml.sparkling/sparkling-graph-api_2.11/srcs/sparkling-graph-api_2.11-0.0.7-SNAPSHOT-sources.jar!/ml/sparkling/graph/api/operators/algorithms/shortestpaths/ShortestPathsTypes.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="87" selection-start-line="17" selection-start-column="87" selection-end-line="17" selection-end-column="87" />
+        <state relative-caret-position="85">
+          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/outputJSON/part-00001-0c50120d-008e-4613-9e1b-c36fd97903b2-c000.json">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="jar://$USER_HOME$/.ivy2/cache/ml.sparkling/sparkling-graph-operators_2.11/srcs/sparkling-graph-operators_2.11-0.0.7-SNAPSHOT-sources.jar!/ml/sparkling/graph/operators/algorithms/shortestpaths/pathprocessors/fastutils/FastUtilDataTypes.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="3" lean-forward="true" selection-end-line="13" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/outputJSON/part-00000-0c50120d-008e-4613-9e1b-c36fd97903b2-c000.json">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/graphx/indices/CommonResourceAllocation.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-end-line="26" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/outputJSON.txt/part-00000-32aa31d9-0797-43bb-afe8-9807cef564ec-c000.json">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="jar://$USER_HOME$/.ivy2/cache/ml.sparkling/sparkling-graph-operators_2.11/srcs/sparkling-graph-operators_2.11-0.0.7-SNAPSHOT-sources.jar!/ml/sparkling/graph/operators/measures/edge/AdamicAdar.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="17" column="36" selection-start-line="17" selection-end-line="18" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/outputJSON.txt/part-00001-32aa31d9-0797-43bb-afe8-9807cef564ec-c000.json">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-mllib_2.11/srcs/spark-mllib_2.11-2.3.0-sources.jar!/org/apache/spark/mllib/clustering/KMeans.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3043">
+          <caret line="207" column="6" selection-start-line="207" selection-start-column="6" selection-end-line="207" selection-end-column="6" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/outputJSON1.txt/part-00000-82edf417-0fd0-4ec3-a8d9-82167d780adb-c000.json">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/graphx/scalableLPTwitter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2958">
+          <caret line="174" column="49" selection-start-line="173" selection-start-column="6" selection-end-line="174" selection-end-column="49" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/outputJSON1.txt/part-00001-82edf417-0fd0-4ec3-a8d9-82167d780adb-c000.json">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-mllib_2.11/srcs/spark-mllib_2.11-2.3.0-sources.jar!/org/apache/spark/mllib/clustering/PowerIterationClustering.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AAOutputJSON.txt/part-00000-5b6b0c09-1fe2-494f-82f3-b7a5b6c504c1-c000.json">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-mllib_2.11/jars/spark-mllib_2.11-2.3.0.jar!/org/apache/spark/mllib/clustering/PowerIterationClusteringModel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AAOutputJSON.txt/part-00001-5b6b0c09-1fe2-494f-82f3-b7a5b6c504c1-c000.json">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.0-sources.jar!/scala/collection/immutable/MapLike.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="101" column="15" selection-start-line="101" selection-start-column="15" selection-end-line="101" selection-end-column="15" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CNOutputJSON.txt/part-00000-b85dfd25-69b7-4b03-86b1-d66625257146-c000.json">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.0-sources.jar!/scala/collection/TraversableLike.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="237" column="6" selection-start-line="237" selection-start-column="6" selection-end-line="237" selection-end-column="6" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CNOutputJSON.txt/part-00001-b85dfd25-69b7-4b03-86b1-d66625257146-c000.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RAOutputJSON.txt/part-00000-cbb1f5d5-5b75-4fa5-ab83-5c17a59b6f9e-c000.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RAOutputJSON.txt/.part-00000-cbb1f5d5-5b75-4fa5-ab83-5c17a59b6f9e-c000.json.crc">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.0-sources.jar!/scala/io/BufferedSource.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="85" column="15" selection-start-line="85" selection-start-column="15" selection-end-line="85" selection-end-column="15" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/graphx/indices/OperatorsNew.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JIOut.txt/part-00000">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/graphx/sparklingGraphTwitter.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="65" column="28" lean-forward="true" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
+        <state relative-caret-position="34">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding>
-            <element signature="e#16#78#0" expanded="true" />
+            <element signature="e#24#172#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>Python 3.6</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/graphx/clustering/TransitiveClosure.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="34" column="38" lean-forward="true" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#839#871#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-core_2.11/srcs/spark-core_2.11-2.3.0-sources.jar!/org/apache/spark/SparkContext.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-187">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-graphx_2.11/srcs/spark-graphx_2.11-2.3.0-sources.jar!/org/apache/spark/graphx/EdgeRDD.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1220">
+          <caret line="38" column="15" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-core_2.11/srcs/spark-core_2.11-2.3.0-sources.jar!/org/apache/spark/rdd/RDD.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="371" column="70" selection-start-line="371" selection-start-column="70" selection-end-line="371" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input/twitter.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state>
+          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/graphx/clustering/PowerIterationClusteringNew.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2652">
+          <caret line="184" column="27" selection-start-line="184" selection-start-column="27" selection-end-line="184" selection-end-column="27" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#845#868#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input/twitter-small-labeled.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-graphx_2.11/srcs/spark-graphx_2.11-2.3.0-sources.jar!/org/apache/spark/graphx/Graph.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8262">
+          <caret line="506" column="48" selection-start-line="506" selection-start-column="48" selection-end-line="506" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/graphx/clustering/Constraints.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1479">
+          <caret line="87" column="17" selection-start-column="2" selection-end-line="100" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input/twitter-small.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input/users-small.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-core_2.11/srcs/spark-core_2.11-2.3.0-sources.jar!/org/apache/spark/rdd/PairRDDFunctions.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10353">
+          <caret line="648" column="6" selection-start-line="648" selection-start-column="6" selection-end-line="648" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/graphx/sparklingGraphTwitter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+          <folding>
+            <element signature="e#16#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

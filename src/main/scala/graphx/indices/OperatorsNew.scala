@@ -7,6 +7,7 @@ import ml.sparkling.graph.operators.algorithms.community.pscan.PSCAN.computeConn
 import ml.sparkling.graph.operators.algorithms.link.BasicLinkPredictor
 import ml.sparkling.graph.operators.measures.edge.{AdamicAdar, CommonNeighbours}
 import ml.sparkling.graph.operators.measures.graph.{FreemanCentrality, Modularity}
+import ml.sparkling.graph.operators.measures.utils.NeighboursUtils._
 import ml.sparkling.graph.operators.measures.vertex.closenes.Closeness
 import ml.sparkling.graph.operators.measures.vertex.clustering.LocalClustering
 import ml.sparkling.graph.operators.measures.vertex.eigenvector.EigenvectorCentrality
@@ -61,6 +62,13 @@ object OperatorsNew {
 
     def adamicAdar(treatAsUndirected:Boolean=false)={
       AdamicAdar.computeWithPreprocessing(graph,treatAsUndirected)
+    }
+    def adamicAdarTst(treatAsUndirected:Boolean=false)={
+      val neighbour = AdamicAdar.computeWithPreprocessing(graph,treatAsUndirected)
+      AdamicAdar.computeValue(new NeighboursMap(0), new NeighboursMap(0), treatAsUndirected)
+    }
+    def aaTestConvertOutputType(graph: Graph[_,ED]): Unit ={
+
     }
 
     def commonNeighbours(treatAsUndirected:Boolean=false)={

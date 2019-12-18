@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/graphx-experiment.iml" filepath="$PROJECT_DIR$/.idea/modules/graphx-experiment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/graphx-experiment.iml" filepath="$PROJECT_DIR$/graphx-experiment.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/graphx-experiment-build.iml" filepath="$PROJECT_DIR$/.idea/modules/graphx-experiment-build.iml" />
     </modules>
   </component>
