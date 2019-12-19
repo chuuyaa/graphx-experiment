@@ -42,7 +42,7 @@ object sparklingGraphTwitter extends Serializable {
   def main(args: Array[String]): Unit = {
 
     // Spark entry point
-//    val spark = SparkSession.builder().master("local[*]").config("spark.sql.warehouse.dir", "file:///home/hadoop/graphx-experiment/").getOrCreate().sparkContext
+//    val spark = SparkSession.builder().master("yarn").config("spark.sql.warehouse.dir", "file:///home/hadoop/graphx-experiment/").getOrCreate().sparkContext
     val spark = SparkSession.builder().master("local[*]").config("spark.sql.warehouse.dir", "file:///Users/User/IdeaProject/graphx-experiment/").getOrCreate().sparkContext
 
 //        generateGraph(spark)
