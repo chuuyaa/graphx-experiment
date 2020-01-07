@@ -1,13 +1,22 @@
 package graphx
 
+import java.util
+
+import graphx.clustering.TransitiveClosure
+import graphx.clustering.TransitiveClosure._
+import org.apache.spark.api.java
+import org.apache.spark.rdd._
 import graphx.indices.OperatorsNew._
 import org.apache.spark.SparkContext
-import org.apache.spark.graphx.{EdgeRDD, Graph, GraphLoader}
+import org.apache.spark.graphx.{EdgeRDD, Graph, GraphLoader, VertexId}
 import org.apache.spark.mllib.clustering._
+import org.apache.spark.rdd.RDD
 import org.apache.spark.sql.SparkSession
 
+import scala.io.Source
 
-object sparklingGraphTwitter extends Serializable {
+
+object sparklingGraphTwitterFirstVersion extends Serializable {
 
 //  var path_10k = "/user/hadoop/data/graphx/10k.txt";
 //  var path_15k = "/user/hadoop/data/graphx/15k.txt";
@@ -19,23 +28,26 @@ object sparklingGraphTwitter extends Serializable {
 //  var path_1mill = "/user/hadoop/data/graphx/twitter.txt";
 //  var path_small = "/user/hadoop/data/graphx/twitter-small.txt";
 
-  var path_10k = "/Users/User/IdeaProject/graphx-experiment/input/10k.txt"
-  var path_15k = "/Users/User/IdeaProject/graphx-experiment/input/15k.txt"
-  var path_20k = "/Users/User/IdeaProject/graphx-experiment/input/20k.txt"
-  var path_30k = "/Users/User/IdeaProject/graphx-experiment/input/30k.txt"
-  var path_40k = "/Users/User/IdeaProject/graphx-experiment/input/40k.txt"
-  var path_50k = "/Users/User/IdeaProject/graphx-experiment/input/50k.txt"
-  var path_100k = "/Users/User/IdeaProject/graphx-experiment/input/100k.txt"
-  var path_1mill = "/Users/User/IdeaProject/graphx-experiment/input/twitter.txt"
-  var path_small = "/Users/User/IdeaProject/graphx-experiment/input/twitter-small.txt"
+  var path_10k = "/Users/User/IdeaProject/graphx-experiment/input/10k.txt";
+  var path_15k = "/Users/User/IdeaProject/graphx-experiment/input/15k.txt";
+  var path_20k = "/Users/User/IdeaProject/graphx-experiment/input/20k.txt";
+  var path_30k = "/Users/User/IdeaProject/graphx-experiment/input/30k.txt";
+  var path_40k = "/Users/User/IdeaProject/graphx-experiment/input/40k.txt";
+  var path_50k = "/Users/User/IdeaProject/graphx-experiment/input/50k.txt";
+  var path_100k = "/Users/User/IdeaProject/graphx-experiment/input/100k.txt";
+  var path_1mill = "/Users/User/IdeaProject/graphx-experiment/input/twitter.txt";
+  var path_small = "/Users/User/IdeaProject/graphx-experiment/input/twitter-small.txt";
 
   var path = path_100k
   def main(args: Array[String]): Unit = {
 
+    // Spark entry point
 //    val spark = SparkSession.builder().master("yarn").config("spark.sql.warehouse.dir", "file:///home/hadoop/graphx-experiment/").getOrCreate().sparkContext
     val spark = SparkSession.builder().master("local[*]").config("spark.sql.warehouse.dir", "file:///Users/User/IdeaProject/graphx-experiment/").getOrCreate().sparkContext
-    val pagerankGraph = computePagerank(generateGraph(spark))
-    computeSimilarityIndex(pagerankGraph)
+
+//        generateGraph(spark)
+        val pagerankGraph = computePagerank(generateGraph(spark))
+        computeSimilarityIndex(pagerankGraph)
   }
 
   /**
@@ -60,6 +72,9 @@ object sparklingGraphTwitter extends Serializable {
     graph
   }
 
+  def generateHalfFile(): Unit ={
+
+  }
   /**
     * Compute the PageRank
     * Output :
@@ -101,9 +116,23 @@ object sparklingGraphTwitter extends Serializable {
     joinedEdges
   }
 
+  def splitTrainTestGraph(joinedEdges: EdgeRDD[_]) = {
+    //        val Array(trainingGraph, testGraph) = joinedEdges.randomSplit(Array(0.6,0.4))
+    //        println("trainingGraph")
+    //        trainingGraph.foreach(println(_))
+    //        println("testGraph")
+    //        testGraph.foreach(println(_))
+  }
+
+  def graphLearningTask(spark: SparkContext) = {
+
+  }
+
   def graphClustering(pagerankGraph: Graph[Double,Double], aaEdges: EdgeRDD[Double]) = {
     val aaCombinedGraph = Graph(pagerankGraph.vertices, aaEdges)
-    //aaCombinedGraph.triplets.foreach(println(_))
+    aaCombinedGraph.triplets.foreach(println(_))
+
+//    filter_constraints(path_small, aaCombinedGraph)
 
     val adamicadarModel =
       new PowerIterationClusteringNew()
@@ -123,4 +152,23 @@ object sparklingGraphTwitter extends Serializable {
     }.sorted.mkString("(", ",", ")")
     println(s"adamic adar cluster: $assignments2Str\n" + s"adamic adar cluster sizes: $sizes2Str")
   }
+
+  def outputLinkPrediction(spark: SparkContext) = {
+    /**
+      * ((566386538, name1),(307458983, name2),1)
+      * ((srcId, srcAttr),(dstId, dstAttr), edgeAttr) edge attriv=bute by default is 1
+      */
+    println("GRAPH TRIPLETS :")
+    generateGraph(spark).triplets.foreach(println(_))
+
+    //    println("PAGERANK GRAPH TRIPLETS :")
+    //    pagerankGraph.triplets.foreach(println(_))
+
+    /**
+      * print out all similarity index computed
+      */
+    //    println("COMMON NEIGHBOURS TRIPLETS :")
+    //    commonNeighbours.edges.foreach(println(_))
+  }
+
 }
