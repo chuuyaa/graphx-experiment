@@ -4,7 +4,7 @@
 		module="graphx-experiment_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20191108162137"
+		publication="20201110154230"
 	>
 		<description>
 		graphx-experiment
@@ -39,6 +39,7 @@
 		<dependency org="org.apache.spark" name="spark-sql_2.11" rev="2.3.0" conf="provided->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-mllib_2.11" rev="2.3.0" conf="provided->default(compile)"/>
 		<dependency org="org.scala-lang" name="scala-reflect" rev="2.3.0" conf="provided->default(compile)"/>
+		<dependency org="org.apache.spark" name="spark-ganglia-lgpl_2.11" rev="2.1.0" conf="compile->default(compile)"/>
 		<dependency org="ml.sparkling" name="sparkling-graph-examples_2.11" rev="0.0.7-SNAPSHOT" conf="compile->default(compile)"/>
 		<dependency org="ml.sparkling" name="sparkling-graph-loaders_2.11" rev="0.0.7-SNAPSHOT" conf="compile->default(compile)"/>
 		<dependency org="ml.sparkling" name="sparkling-graph-operators_2.11" rev="0.0.7-SNAPSHOT" conf="compile->default(compile)"/>

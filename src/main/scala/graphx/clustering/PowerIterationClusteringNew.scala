@@ -193,6 +193,7 @@ class PowerIterationClusteringNew private[clustering] (
 
   def filter_constraints(constraintsfile: String, similarities: Graph[Double,Double]) = {
     //read constraints file
+    // val sc = SparkSession.builder().master("local[*]").config("spark.sql.warehouse.dir", "file:///home/hadoop/graphx-experiment/").getOrCreate().sparkContext
     val sc = SparkSession.builder().master("local[*]").config("spark.sql.warehouse.dir", "file:///Users/User/IdeaProject/graphx-experiment/").getOrCreate().sparkContext
     val f = sc.textFile(constraintsfile).map{l => val lineSplits = l.split("\\s+")
       val src = lineSplits(0).trim.toLong
@@ -248,8 +249,8 @@ class PowerIterationClusteringNew private[clustering] (
     */
   private def pic(w: Graph[Double, Double]): PowerIterationClusteringModel = {
     val v = powerIter(w, maxIterations)
-    println("This is value of w : ")
-    w.edges.foreach(println)
+//    println("This is value of w : ")
+//    w.edges.foreach(println)
     val assignments = kMeans(v, k).mapPartitions({ iter =>
       iter.map { case (id, cluster) =>
         Assignment(id, cluster)

@@ -1,3 +1,5 @@
 [debug] Other repositories:
 [debug] Default repositories:
 [debug] Using inline dependencies specified in Scala.
+[warn] Binary version (2.3.0) for dependency org.scala-lang#scala-reflect;2.3.0
+[warn] 	in graphx-experiment#graphx-experiment_2.12;1.0 differs from Scala binary version in project (2.12).
