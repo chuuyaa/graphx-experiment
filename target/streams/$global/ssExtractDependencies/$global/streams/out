@@ -1,11 +1,5 @@
-sbt.ResolveException: unresolved dependency: org.apache.spark#spark-ganglia-lgpl_2.12;2.1.0: not found
-unresolved dependency: ml.sparkling#sparkling-graph-examples_2.12;0.0.8-SNAPSHOT: not found
-unresolved dependency: ml.sparkling#sparkling-graph-loaders_2.12;0.0.8-SNAPSHOT: not found
-unresolved dependency: ml.sparkling#sparkling-graph-operators_2.12;0.0.8-SNAPSHOT: not found
-unresolved dependency: org.apache.spark#spark-core_2.12;2.3.0: not found
-unresolved dependency: org.apache.spark#spark-sql_2.12;2.3.0: not found
-unresolved dependency: org.apache.spark#spark-mllib_2.12;2.3.0: not found
-	at sbt.IvyActions$.sbt$IvyActions$$resolve(IvyActions.scala:313)
+sbt.ResolveException: unresolved dependency: org.scala-lang#scala-reflect_2.12.0;2.3.0: not found
+	at sbt.IvyActions$.sbt$IvyActions$$resolve(IvyActions.scala:320)
 	at sbt.IvyActions$$anonfun$updateEither$1.apply(IvyActions.scala:191)
 	at sbt.IvyActions$$anonfun$updateEither$1.apply(IvyActions.scala:168)
 	at sbt.IvySbt$Module$$anonfun$withModule$1.apply(Ivy.scala:156)
@@ -27,17 +21,17 @@ unresolved dependency: org.apache.spark#spark-mllib_2.12;2.3.0: not found
 	at sbt.IvySbt.withIvy(Ivy.scala:125)
 	at sbt.IvySbt$Module.withModule(Ivy.scala:156)
 	at sbt.IvyActions$.updateEither(IvyActions.scala:168)
-	at sbt.Classpaths$$anonfun$sbt$Classpaths$$work$1$1.apply(Defaults.scala:1442)
-	at sbt.Classpaths$$anonfun$sbt$Classpaths$$work$1$1.apply(Defaults.scala:1438)
-	at sbt.Classpaths$$anonfun$doWork$1$1$$anonfun$90.apply(Defaults.scala:1473)
-	at sbt.Classpaths$$anonfun$doWork$1$1$$anonfun$90.apply(Defaults.scala:1471)
+	at sbt.Classpaths$$anonfun$sbt$Classpaths$$work$1$1.apply(Defaults.scala:1555)
+	at sbt.Classpaths$$anonfun$sbt$Classpaths$$work$1$1.apply(Defaults.scala:1551)
+	at sbt.Classpaths$$anonfun$doWork$1$1$$anonfun$122.apply(Defaults.scala:1586)
+	at sbt.Classpaths$$anonfun$doWork$1$1$$anonfun$122.apply(Defaults.scala:1584)
 	at sbt.Tracked$$anonfun$lastOutput$1.apply(Tracked.scala:37)
-	at sbt.Classpaths$$anonfun$doWork$1$1.apply(Defaults.scala:1476)
-	at sbt.Classpaths$$anonfun$doWork$1$1.apply(Defaults.scala:1470)
+	at sbt.Classpaths$$anonfun$doWork$1$1.apply(Defaults.scala:1589)
+	at sbt.Classpaths$$anonfun$doWork$1$1.apply(Defaults.scala:1583)
 	at sbt.Tracked$$anonfun$inputChanged$1.apply(Tracked.scala:60)
-	at sbt.Classpaths$.cachedUpdate(Defaults.scala:1493)
-	at sbt.Classpaths$$anonfun$updateTask$1.apply(Defaults.scala:1420)
-	at sbt.Classpaths$$anonfun$updateTask$1.apply(Defaults.scala:1372)
+	at sbt.Classpaths$.cachedUpdate(Defaults.scala:1606)
+	at sbt.Classpaths$$anonfun$updateTask$1.apply(Defaults.scala:1533)
+	at sbt.Classpaths$$anonfun$updateTask$1.apply(Defaults.scala:1485)
 	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:47)
 	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40)
 	at sbt.std.Transform$$anon$4.work(System.scala:63)
@@ -55,10 +49,4 @@ unresolved dependency: org.apache.spark#spark-mllib_2.12;2.3.0: not found
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-[error] (*:ssExtractDependencies) sbt.ResolveException: unresolved dependency: org.apache.spark#spark-ganglia-lgpl_2.12;2.1.0: not found
-[error] unresolved dependency: ml.sparkling#sparkling-graph-examples_2.12;0.0.8-SNAPSHOT: not found
-[error] unresolved dependency: ml.sparkling#sparkling-graph-loaders_2.12;0.0.8-SNAPSHOT: not found
-[error] unresolved dependency: ml.sparkling#sparkling-graph-operators_2.12;0.0.8-SNAPSHOT: not found
-[error] unresolved dependency: org.apache.spark#spark-core_2.12;2.3.0: not found
-[error] unresolved dependency: org.apache.spark#spark-sql_2.12;2.3.0: not found
-[error] unresolved dependency: org.apache.spark#spark-mllib_2.12;2.3.0: not found
+[error] (*:ssExtractDependencies) sbt.ResolveException: unresolved dependency: org.scala-lang#scala-reflect_2.12.0;2.3.0: not found

@@ -43,7 +43,7 @@ object TransitiveClosure {
       // println(triplet)
       if(triplet.srcAttr._2.size != 0) {
         val send = new OpenHashSet[VertexId]
-        triplet.dstAttr
+//        triplet.dstAttr
         triplet.srcAttr._2.iterator.foreach(v => if (!triplet.dstAttr._1.contains(v)) send.add(v))
         //  }
         //println(triplet.dstId)

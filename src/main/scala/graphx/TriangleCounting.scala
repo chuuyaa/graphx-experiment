@@ -6,7 +6,7 @@ package graphx
 // $example on$
 import java.io.InputStreamReader
 
-import graphx.sparklingGraphTwitter.path
+import gclustering.sparklingGraphTwitter.path
 import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.api.java.JavaSparkContext
 import org.apache.spark.deploy.SparkSubmit

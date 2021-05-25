@@ -5,148 +5,71 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7ef6548-b0f4-4e72-b3ad-56c15afd802d" name="Default Changelist" comment="optimized code v1">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_annotations_2_6_5_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_core_2_6_5_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_databind_2_6_5_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_module_jackson_module_paranamer_2_6_5_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_module_jackson_module_scala_2_11_2_6_5_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_code_findbugs_jsr305_1_3_9_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_guava_guava_14_0_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_thoughtworks_paranamer_paranamer_2_6_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_twitter_chill_2_11_0_8_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_twitter_chill_java_0_8_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__commons_codec_commons_codec_1_4_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__commons_collections_commons_collections_3_2_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__commons_io_commons_io_2_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__commons_lang_commons_lang_2_5_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__commons_net_commons_net_3_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__info_ganglia_gmetric4j_gmetric4j_1_0_7_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_dropwizard_metrics_metrics_core_3_1_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_dropwizard_metrics_metrics_ganglia_3_1_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_dropwizard_metrics_metrics_graphite_3_1_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_dropwizard_metrics_metrics_json_3_1_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_dropwizard_metrics_metrics_jvm_3_1_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_netty_netty_3_8_0_Final_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_netty_netty_all_4_0_42_Final_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__net_java_dev_jets3t_jets3t_0_7_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__net_jpountz_lz4_lz4_1_3_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__net_sf_py4j_py4j_0_10_4_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_acplt_oncrpc_1_0_7_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_commons_commons_math_2_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_curator_curator_client_2_4_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_curator_curator_framework_2_4_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_curator_curator_recipes_2_4_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_annotations_2_2_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_auth_2_2_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_client_2_2_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_common_2_2_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_hdfs_2_2_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_app_2_2_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_common_2_2_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_core_2_2_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_jobclient_2_2_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_shuffle_2_2_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_api_2_2_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_client_2_2_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_common_2_2_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_server_common_2_2_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_core_2_11_2_1_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_ganglia_lgpl_2_11_2_1_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_launcher_2_11_2_1_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_network_common_2_11_2_1_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_network_shuffle_2_11_2_1_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_tags_2_11_2_1_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_unsafe_2_11_2_1_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_zookeeper_zookeeper_3_4_5_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_parser_combinators_2_11_1_0_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_11_1_0_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_2_11_2_2_6_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_slf4j_slf4j_api_1_7_16_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator-enh.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graphx-experiment.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/graphx/OverlappingCommunityDetection.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/graphx/TriangleCounting.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/graphx/followers.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/graphx/users.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/phd/solution/collectModule.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_codec_commons_codec_1_13_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__commons_codec_commons_codec_1_15_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__it_unimi_dsi_fastutil_7_0_8_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__it_unimi_dsi_fastutil_8_1_0_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__ml_sparkling_sparkling_graph_api_2_11_0_0_7_SNAPSHOT_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__ml_sparkling_sparkling_graph_api_2_11_0_0_8_SNAPSHOT_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__ml_sparkling_sparkling_graph_examples_2_11_0_0_7_SNAPSHOT_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__ml_sparkling_sparkling_graph_examples_2_11_0_0_8_SNAPSHOT_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__ml_sparkling_sparkling_graph_experiments_2_11_0_0_7_SNAPSHOT_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__ml_sparkling_sparkling_graph_experiments_2_11_0_0_8_SNAPSHOT_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__ml_sparkling_sparkling_graph_generators_2_11_0_0_7_SNAPSHOT_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__ml_sparkling_sparkling_graph_generators_2_11_0_0_8_SNAPSHOT_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__ml_sparkling_sparkling_graph_loaders_2_11_0_0_7_SNAPSHOT_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__ml_sparkling_sparkling_graph_loaders_2_11_0_0_8_SNAPSHOT_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__ml_sparkling_sparkling_graph_operators_2_11_0_0_7_SNAPSHOT_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__ml_sparkling_sparkling_graph_operators_2_11_0_0_8_SNAPSHOT_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/gclustering/sparklingGraphTwitter.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_annotations_2_6_5_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_core_2_6_5_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_core_2_6_7_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_databind_2_6_5_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_module_jackson_module_paranamer_2_6_5_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_module_jackson_module_scala_2_11_2_6_5_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_guava_guava_14_0_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_thoughtworks_paranamer_paranamer_2_6_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_twitter_chill_2_11_0_8_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_twitter_chill_java_0_8_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_codec_commons_codec_1_4_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_collections_commons_collections_3_2_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_io_commons_io_2_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_lang_commons_lang_2_5_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_net_commons_net_3_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_dropwizard_metrics_metrics_core_3_1_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_dropwizard_metrics_metrics_ganglia_3_1_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_dropwizard_metrics_metrics_ganglia_3_1_5_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_dropwizard_metrics_metrics_graphite_3_1_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_dropwizard_metrics_metrics_json_3_1_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_dropwizard_metrics_metrics_jvm_3_1_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_netty_netty_3_8_0_Final_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_netty_netty_all_4_0_42_Final_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__net_java_dev_jets3t_jets3t_0_7_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__net_jpountz_lz4_lz4_1_3_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__net_sf_py4j_py4j_0_10_4_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_commons_commons_math_2_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_curator_curator_client_2_4_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_curator_curator_framework_2_4_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_curator_curator_recipes_2_4_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_annotations_2_2_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_auth_2_2_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_client_2_2_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_common_2_2_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_hdfs_2_2_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_app_2_2_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_common_2_2_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_core_2_2_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_jobclient_2_2_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_shuffle_2_2_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_api_2_2_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_client_2_2_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_common_2_2_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_server_common_2_2_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_core_2_11_2_1_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_ganglia_lgpl_2_11_2_1_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_ganglia_lgpl_2_11_2_3_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_launcher_2_11_2_1_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_network_common_2_11_2_1_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_network_shuffle_2_11_2_1_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_tags_2_11_2_1_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_unsafe_2_11_2_1_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_zookeeper_zookeeper_3_4_5_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_parser_combinators_2_11_1_0_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_11_1_0_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_11_1_0_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_compiler_2_11_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_compiler_2_11_12_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_11_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_11_12_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_11_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_11_12_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scalap_2_11_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scalap_2_11_12_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_2_11_2_2_6_jar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/graphx-experiment-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/graphx-experiment-build.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input/100k.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/input/10k.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/input/150k.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/input/15k.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/input/200k.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/input/20k.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/input/250k.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/input/300k.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/input/30k.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/input/350k.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/input/400k.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/input/40k.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/input/450k.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/input/50.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/input/500k.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/input/50k.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/input/550k.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/input/600k.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/input/650k.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/input/700k.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/input/900k.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/input/twitter-small-labeled.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/input/twitter-small.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/input/twitter.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/input/twitter1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/input/users ori.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/input/users-small.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/input/users.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/input/users.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/input/verts.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3ca6a7467e438bd157f8$$anonfun$$sbtdef$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3ca6a7467e438bd157f8$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3ca6a7467e438bd157f8.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3ca6a7467e438bd157f8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$65e3da19e040bf7fffb1$$anonfun$$sbtdef$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$65e3da19e040bf7fffb1$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$65e3da19e040bf7fffb1.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$65e3da19e040bf7fffb1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a6781502d99b7d2938d3$$anonfun$$sbtdef$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a6781502d99b7d2938d3$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a6781502d99b7d2938d3.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a6781502d99b7d2938d3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$bd0577cea564ed422435$$anonfun$$sbtdef$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$bd0577cea564ed422435$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$bd0577cea564ed422435.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$bd0577cea564ed422435.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/graphx-experiment-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/graphx-experiment-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/graphx-experiment-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/graphx-experiment-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-docs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-docs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-sources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-sources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-graphx-experiment-build-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphx-experiment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/graphx-experiment.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/build.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/build.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/input_dsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
@@ -157,50 +80,73 @@
       <change beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/OverlappingCommunityDetection.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/graphx/clustering/PowerIterationClusteringNew.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/graphx/clustering/PowerIterationClusteringNew.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/graphx/sparklingGraphTwitter.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/graphx/sparklingGraphTwitter.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/default/graphx-experiment$sources_2.11/1.0/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/default/graphx-experiment$sources_2.11/1.0/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/default/graphx-experiment$sources_2.11/1.0/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/default/graphx-experiment$sources_2.11/1.0/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/default/graphx-experiment_2.11/1.0/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/default/graphx-experiment_2.11/1.0/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/default/graphx-experiment_2.11/1.0/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/default/graphx-experiment_2.11/1.0/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-compile-internal.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-compile.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-docs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-optional.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-plugin.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-provided.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-runtime-internal.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-runtime.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-scala-tool.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-sources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-test-internal.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment$sources_2.11-test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-docs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-docs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-sources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-sources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-graphx-experiment_2.11-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/graphanalysis/GraphBuilder.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/graphx/graphanalysis/GraphBuilder.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/graphanalysis/RunGraph.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/graphx/graphanalysis/RunGraph.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/graphx/OverlappingCommunityDetection.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ocdetection/OverlappingCommunityDetection.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/graphx/RunGraphTwitter.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/graphx/RunGraphTwitter.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/graphx/RunGraphXTwitter.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/graphx/RunGraphXTwitter.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/graphx/TriangleCounting.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/graphx/TriangleCounting.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/graphx/berkeleyLab10example.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/graphx/berkeleyLab10example.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/graphx/clustering/TransitiveClosure.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/graphx/clustering/TransitiveClosure.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/graphx/sparklingGraphTwitter.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphanalysis/GraphBuilder$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphanalysis/GraphBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphanalysis/RunGraph$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphanalysis/RunGraph$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphanalysis/RunGraph$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphanalysis/RunGraph$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphanalysis/RunGraph$$anonfun$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphanalysis/RunGraph$$anonfun$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphanalysis/RunGraph$$anonfun$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphanalysis/RunGraph$$anonfun$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphanalysis/RunGraph$$anonfun$connectedComponents$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphanalysis/RunGraph$$anonfun$connectedComponents$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphanalysis/RunGraph$$anonfun$neighbourhoodAggregation$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphanalysis/RunGraph$$anonfun$simpleGraphOperations$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphanalysis/RunGraph$$anonfun$simpleGraphOperations$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphanalysis/RunGraph$$anonfun$structuralOperations$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphanalysis/RunGraph$$anonfun$subgraph$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphanalysis/RunGraph$$anonfun$subgraph$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphanalysis/RunGraph$$anonfun$subgraph$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphanalysis/RunGraph$$anonfun$subgraph$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphanalysis/RunGraph$$anonfun$subgraph$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphanalysis/RunGraph$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphanalysis/RunGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/KUKURUKUgraphxTwitter$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/KUKURUKUgraphxTwitter$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/KUKURUKUgraphxTwitter$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/KUKURUKUgraphxTwitter$$anonfun$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/KUKURUKUgraphxTwitter$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/KUKURUKUgraphxTwitter$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/KUKURUKUgraphxTwitter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/KUKURUKUgraphxTwitter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphTwitter$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphTwitter$$anonfun$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphTwitter$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphTwitter$$anonfun$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphTwitter$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphTwitter$$anonfun$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphTwitter$$anonfun$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphTwitter$$anonfun$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphTwitter$$anonfun$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphTwitter$$anonfun$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphTwitter$$anonfun$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphTwitter$$anonfun$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphTwitter$$anonfun$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphTwitter$$anonfun$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphTwitter$$anonfun$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphTwitter$$anonfun$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphTwitter$$anonfun$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphTwitter$$anonfun$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphTwitter$$anonfun$simpleGraphOperations$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphTwitter$$anonfun$simpleGraphOperations$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphTwitter$$anonfun$tryAgainGraph$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphTwitter$$anonfun$tryAgainGraph$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphTwitter$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphTwitter$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphTwitter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphTwitter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphXTwitter.sc" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphXTwitter.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/berkeleyLab10example.sc" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/berkeleyLab10example.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/JaccardIndex$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/JaccardIndex$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/OperatorsNew$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/OperatorsNew$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/OperatorsNew$DSL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/OperatorsNew$DSL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/OperatorsNew$ModularityDSL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/OperatorsNew$ModularityDSL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/OperatorsNew.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/OperatorsNew.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/PreferentialAttachment$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/PreferentialAttachment$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/ResourceAllocation$$anonfun$computeValue$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/ResourceAllocation$$anonfun$computeValue$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/ResourceAllocation$$anonfun$computeValue$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/ResourceAllocation$$anonfun$computeValue$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter$$anonfun$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter$$anonfun$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter$$anonfun$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter$$anonfun$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter$$anonfun$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/ResourceAllocation$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/ResourceAllocation$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/ResourceAllocation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/ResourceAllocation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterDir="false" />
@@ -255,8 +201,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Scala Object" />
         <option value="Package Object" />
+        <option value="Scala Object" />
       </list>
     </option>
   </component>
@@ -299,12 +245,12 @@
   <component name="RunManager" selected="Application.sparklingGraphTwitter">
     <configuration name="OverlappingCommunityDetection (1)" type="Application" factoryName="Application" temporary="true">
       <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
-      <option name="MAIN_CLASS_NAME" value="graphx.OverlappingCommunityDetection" />
+      <option name="MAIN_CLASS_NAME" value="overlapping.community.detection.OverlappingCommunityDetection" />
       <module name="graphx-experiment" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/scala/graphx" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="graphx.*" />
+          <option name="PATTERN" value="overlapping.community.detection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -312,29 +258,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OverlappingCommunityDetection" type="Application" factoryName="Application" temporary="true">
+    <configuration name="OverlappingCommunityDetection (2)" type="Application" factoryName="Application" temporary="true">
       <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
-      <option name="MAIN_CLASS_NAME" value="org.apache.spark.graphx.lib.OverlappingCommunityDetection" />
+      <option name="MAIN_CLASS_NAME" value="ocdetection.OverlappingCommunityDetection" />
       <module name="graphx-experiment" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/scala/graphx" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.apache.spark.graphx.lib.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TriangleCounting" type="Application" factoryName="Application" temporary="true">
-      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
-      <option name="MAIN_CLASS_NAME" value="graphx.TriangleCounting" />
-      <module name="graphx-experiment" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/scala/graphx" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="graphx.*" />
+          <option name="PATTERN" value="ocdetection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -386,13 +317,28 @@
     </configuration>
     <configuration name="sparklingGraphTwitter" type="Application" factoryName="Application" temporary="true">
       <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
-      <option name="MAIN_CLASS_NAME" value="graphx.sparklingGraphTwitter" />
+      <option name="MAIN_CLASS_NAME" value="gclustering.sparklingGraphTwitter" />
       <module name="graphx-experiment" />
       <option name="VM_PARAMETERS" value="-Xms12912m" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/scala/graphx" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="graphx.*" />
+          <option name="PATTERN" value="overlapping.community.detection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sparklingGraphTwitter100" type="Application" factoryName="Application" temporary="true">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="gclustering.sparklingGraphTwitter100" />
+      <module name="graphx-experiment" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/main/scala/graphx" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gclustering.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -404,18 +350,18 @@
       <item itemvalue="Application.Unnamed" />
       <item itemvalue="Application.scalableLinkPRedictionTwitter" />
       <item itemvalue="Application.OverlappingCommunityDetection (1)" />
-      <item itemvalue="Application.OverlappingCommunityDetection" />
       <item itemvalue="Application.sparklingGraphTwitter" />
-      <item itemvalue="Application.TriangleCounting" />
       <item itemvalue="Application.collectModule" />
+      <item itemvalue="Application.OverlappingCommunityDetection (2)" />
+      <item itemvalue="Application.sparklingGraphTwitter100" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.sparklingGraphTwitter" />
-        <item itemvalue="Application.collectModule" />
-        <item itemvalue="Application.TriangleCounting" />
+        <item itemvalue="Application.sparklingGraphTwitter100" />
+        <item itemvalue="Application.OverlappingCommunityDetection (2)" />
         <item itemvalue="Application.OverlappingCommunityDetection (1)" />
-        <item itemvalue="Application.OverlappingCommunityDetection" />
+        <item itemvalue="Application.collectModule" />
       </list>
     </recent_temporary>
   </component>

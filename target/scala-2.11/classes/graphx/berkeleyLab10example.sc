@@ -1,5 +1,3 @@
-package graphx
-
 import org.apache.spark.SparkContext
 import org.apache.spark.graphx.GraphLoader
 import org.apache.spark.sql.SparkSession

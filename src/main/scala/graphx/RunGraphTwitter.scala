@@ -1,6 +1,6 @@
 package graphx
 
-import graphanalysis.{GraphBuilder, RunGraph}
+import graphx.graphanalysis.GraphBuilder
 import org.apache.log4j.{Level, Logger}
 import org.apache.spark.SparkContext
 import org.apache.spark.SparkContext._
