@@ -5,164 +5,124 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7ef6548-b0f4-4e72-b3ad-56c15afd802d" name="Default Changelist" comment="optimized code v1">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/gclustering/sparklingGraphTwitter.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_annotations_2_6_5_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_core_2_6_5_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_core_2_6_7_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_databind_2_6_5_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_module_jackson_module_paranamer_2_6_5_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_module_jackson_module_scala_2_11_2_6_5_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_google_guava_guava_14_0_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_thoughtworks_paranamer_paranamer_2_6_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_twitter_chill_2_11_0_8_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_twitter_chill_java_0_8_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_codec_commons_codec_1_4_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_collections_commons_collections_3_2_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_io_commons_io_2_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_lang_commons_lang_2_5_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_net_commons_net_3_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_dropwizard_metrics_metrics_core_3_1_2_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_dropwizard_metrics_metrics_ganglia_3_1_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_dropwizard_metrics_metrics_ganglia_3_1_5_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_dropwizard_metrics_metrics_graphite_3_1_2_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_dropwizard_metrics_metrics_json_3_1_2_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_dropwizard_metrics_metrics_jvm_3_1_2_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_netty_netty_3_8_0_Final_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_netty_netty_all_4_0_42_Final_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__net_java_dev_jets3t_jets3t_0_7_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__net_jpountz_lz4_lz4_1_3_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__net_sf_py4j_py4j_0_10_4_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_commons_commons_math_2_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_curator_curator_client_2_4_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_curator_curator_framework_2_4_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_curator_curator_recipes_2_4_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_annotations_2_2_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_auth_2_2_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_client_2_2_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_common_2_2_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_hdfs_2_2_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_app_2_2_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_common_2_2_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_core_2_2_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_jobclient_2_2_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_shuffle_2_2_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_api_2_2_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_client_2_2_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_common_2_2_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_server_common_2_2_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_core_2_11_2_1_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_ganglia_lgpl_2_11_2_1_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_ganglia_lgpl_2_11_2_3_0_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_launcher_2_11_2_1_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_network_common_2_11_2_1_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_network_shuffle_2_11_2_1_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_tags_2_11_2_1_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_spark_spark_unsafe_2_11_2_1_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_zookeeper_zookeeper_3_4_5_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_parser_combinators_2_11_1_0_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_11_1_0_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_11_1_0_2_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_compiler_2_11_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_compiler_2_11_12_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_11_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_11_12_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_11_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_11_12_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scalap_2_11_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scalap_2_11_12_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_2_11_2_2_6_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/graphx-experiment-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/graphx-experiment-build.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphx-experiment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/graphx-experiment.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/build.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/build.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/input_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[013333]_AAOut.txt/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[013333]_AAOut.txt/.part-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[013333]_AAOut.txt/.part-00001.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[013333]_AAOut.txt/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[013333]_AAOut.txt/part-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[013333]_AAOut.txt/part-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[013333]_CNOut.txt/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[013333]_CNOut.txt/.part-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[013333]_CNOut.txt/.part-00001.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[013333]_CNOut.txt/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[013333]_CNOut.txt/part-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[013333]_CNOut.txt/part-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[013333]_graphOutputJSON.txt/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[013333]_graphOutputJSON.txt/.part-00000-1466c880-f1a2-49ff-854a-15d89c6a0948-c000.json.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[013333]_graphOutputJSON.txt/.part-00001-1466c880-f1a2-49ff-854a-15d89c6a0948-c000.json.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[013333]_graphOutputJSON.txt/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[013333]_graphOutputJSON.txt/part-00000-1466c880-f1a2-49ff-854a-15d89c6a0948-c000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[013333]_graphOutputJSON.txt/part-00001-1466c880-f1a2-49ff-854a-15d89c6a0948-c000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[013729]_graphOutputJSON.txt/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[013729]_graphOutputJSON.txt/.part-00000-8ffc53f7-9d99-4a1f-bdd4-7de642949552-c000.json.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[013729]_graphOutputJSON.txt/.part-00001-8ffc53f7-9d99-4a1f-bdd4-7de642949552-c000.json.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[013729]_graphOutputJSON.txt/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[013729]_graphOutputJSON.txt/part-00000-8ffc53f7-9d99-4a1f-bdd4-7de642949552-c000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[013729]_graphOutputJSON.txt/part-00001-8ffc53f7-9d99-4a1f-bdd4-7de642949552-c000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[014014]_graphOutputJSON.txt/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[014014]_graphOutputJSON.txt/.part-00000-4dafe3f5-af0c-497d-a8d0-ed3d7e880bc5-c000.json.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[014014]_graphOutputJSON.txt/.part-00001-4dafe3f5-af0c-497d-a8d0-ed3d7e880bc5-c000.json.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[014014]_graphOutputJSON.txt/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[014014]_graphOutputJSON.txt/part-00000-4dafe3f5-af0c-497d-a8d0-ed3d7e880bc5-c000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[014014]_graphOutputJSON.txt/part-00001-4dafe3f5-af0c-497d-a8d0-ed3d7e880bc5-c000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[014202]_graphOutputJSON.txt/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[014202]_graphOutputJSON.txt/.part-00000-5ea752ea-fb9f-40cf-a9c4-cfa394d51dd0-c000.json.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[014202]_graphOutputJSON.txt/.part-00001-5ea752ea-fb9f-40cf-a9c4-cfa394d51dd0-c000.json.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[014202]_graphOutputJSON.txt/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[014202]_graphOutputJSON.txt/part-00000-5ea752ea-fb9f-40cf-a9c4-cfa394d51dd0-c000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[014202]_graphOutputJSON.txt/part-00001-5ea752ea-fb9f-40cf-a9c4-cfa394d51dd0-c000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[014542]_graphOutputJSON.txt/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[014542]_graphOutputJSON.txt/.part-00000-91ac3def-8768-4501-b1c7-175a4bf0efcf-c000.json.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[014542]_graphOutputJSON.txt/.part-00001-91ac3def-8768-4501-b1c7-175a4bf0efcf-c000.json.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[014542]_graphOutputJSON.txt/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[014542]_graphOutputJSON.txt/part-00000-91ac3def-8768-4501-b1c7-175a4bf0efcf-c000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[014542]_graphOutputJSON.txt/part-00001-91ac3def-8768-4501-b1c7-175a4bf0efcf-c000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[015037]_graphOutputJSON.txt/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[015037]_graphOutputJSON.txt/.part-00000-f4fe2ad3-704e-40aa-a17d-a664d7bf57a5-c000.json.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[015037]_graphOutputJSON.txt/.part-00001-f4fe2ad3-704e-40aa-a17d-a664d7bf57a5-c000.json.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[015037]_graphOutputJSON.txt/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[015037]_graphOutputJSON.txt/part-00000-f4fe2ad3-704e-40aa-a17d-a664d7bf57a5-c000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[015037]_graphOutputJSON.txt/part-00001-f4fe2ad3-704e-40aa-a17d-a664d7bf57a5-c000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[015925]_graphOutputJSON.txt/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[015925]_graphOutputJSON.txt/.part-00000-c64ef931-74e9-43ee-a17b-e683e463a3eb-c000.json.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[015925]_graphOutputJSON.txt/.part-00001-c64ef931-74e9-43ee-a17b-e683e463a3eb-c000.json.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[015925]_graphOutputJSON.txt/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[015925]_graphOutputJSON.txt/part-00000-c64ef931-74e9-43ee-a17b-e683e463a3eb-c000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[015925]_graphOutputJSON.txt/part-00001-c64ef931-74e9-43ee-a17b-e683e463a3eb-c000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[031832]_graphOutputJSON.txt/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[031832]_graphOutputJSON.txt/.part-00000-d29a5692-ead0-4aa8-8f1e-15874cb10c46-c000.json.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[031832]_graphOutputJSON.txt/.part-00001-d29a5692-ead0-4aa8-8f1e-15874cb10c46-c000.json.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[031832]_graphOutputJSON.txt/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[031832]_graphOutputJSON.txt/part-00000-d29a5692-ead0-4aa8-8f1e-15874cb10c46-c000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[031832]_graphOutputJSON.txt/part-00001-d29a5692-ead0-4aa8-8f1e-15874cb10c46-c000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[033328]_graphOutputJSON.txt/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[033328]_graphOutputJSON.txt/.part-00000-8099ba1a-28be-4434-b640-b340657d3d44-c000.json.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[033328]_graphOutputJSON.txt/.part-00001-8099ba1a-28be-4434-b640-b340657d3d44-c000.json.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[033328]_graphOutputJSON.txt/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[033328]_graphOutputJSON.txt/part-00000-8099ba1a-28be-4434-b640-b340657d3d44-c000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[033328]_graphOutputJSON.txt/part-00001-8099ba1a-28be-4434-b640-b340657d3d44-c000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[033915]_graphOutputJSON.txt/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[033915]_graphOutputJSON.txt/.part-00000-11b70f62-8e58-4726-9003-f688bab2ffcb-c000.json.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[033915]_graphOutputJSON.txt/.part-00001-11b70f62-8e58-4726-9003-f688bab2ffcb-c000.json.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[033915]_graphOutputJSON.txt/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[033915]_graphOutputJSON.txt/part-00000-11b70f62-8e58-4726-9003-f688bab2ffcb-c000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[033915]_graphOutputJSON.txt/part-00001-11b70f62-8e58-4726-9003-f688bab2ffcb-c000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[034110]_graphOutputJSON.txt/_temporary/0/_temporary/attempt_20191117154118_0004_m_000000_0/.part-00000-7a57143b-716a-42e7-89a6-d9125fa22566-c000.json.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[034110]_graphOutputJSON.txt/_temporary/0/_temporary/attempt_20191117154118_0004_m_000000_0/part-00000-7a57143b-716a-42e7-89a6-d9125fa22566-c000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[034110]_graphOutputJSON.txt/_temporary/0/_temporary/attempt_20191117154118_0004_m_000001_0/.part-00001-7a57143b-716a-42e7-89a6-d9125fa22566-c000.json.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[034110]_graphOutputJSON.txt/_temporary/0/_temporary/attempt_20191117154118_0004_m_000001_0/part-00001-7a57143b-716a-42e7-89a6-d9125fa22566-c000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[034137]_graphOutputJSON.txt/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[034137]_graphOutputJSON.txt/.part-00000-71eddf7f-1242-4481-bcae-60ace83fdef9-c000.json.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[034137]_graphOutputJSON.txt/.part-00001-71eddf7f-1242-4481-bcae-60ace83fdef9-c000.json.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[034137]_graphOutputJSON.txt/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[034137]_graphOutputJSON.txt/part-00000-71eddf7f-1242-4481-bcae-60ace83fdef9-c000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[034137]_graphOutputJSON.txt/part-00001-71eddf7f-1242-4481-bcae-60ace83fdef9-c000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[034859]_graphOutputJSON.txt/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[034859]_graphOutputJSON.txt/.part-00000-950b9cb6-898e-46d2-a17d-73329c517a5e-c000.json.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[034859]_graphOutputJSON.txt/.part-00001-950b9cb6-898e-46d2-a17d-73329c517a5e-c000.json.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[034859]_graphOutputJSON.txt/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[034859]_graphOutputJSON.txt/part-00000-950b9cb6-898e-46d2-a17d-73329c517a5e-c000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[034859]_graphOutputJSON.txt/part-00001-950b9cb6-898e-46d2-a17d-73329c517a5e-c000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[035503]_graphOutputJSON.txt/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[035503]_graphOutputJSON.txt/.part-00000-95ac806e-5bde-4087-b6eb-e546da9a73f9-c000.json.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[035503]_graphOutputJSON.txt/.part-00001-95ac806e-5bde-4087-b6eb-e546da9a73f9-c000.json.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[035503]_graphOutputJSON.txt/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[035503]_graphOutputJSON.txt/part-00000-95ac806e-5bde-4087-b6eb-e546da9a73f9-c000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[035503]_graphOutputJSON.txt/part-00001-95ac806e-5bde-4087-b6eb-e546da9a73f9-c000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[035723]_graphOutputJSON.txt/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[035723]_graphOutputJSON.txt/.part-00000-07bf9741-7d93-4652-a154-3ae2fc4be6a7-c000.json.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[035723]_graphOutputJSON.txt/.part-00001-07bf9741-7d93-4652-a154-3ae2fc4be6a7-c000.json.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[035723]_graphOutputJSON.txt/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[035723]_graphOutputJSON.txt/part-00000-07bf9741-7d93-4652-a154-3ae2fc4be6a7-c000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/17112019[035723]_graphOutputJSON.txt/part-00001-07bf9741-7d93-4652-a154-3ae2fc4be6a7-c000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/18112019[125413]_graphOutputJSON.txt/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/18112019[125413]_graphOutputJSON.txt/.part-00000-d1767836-3213-428e-8274-4e6d6c656ee9-c000.json.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/18112019[125413]_graphOutputJSON.txt/.part-00001-d1767836-3213-428e-8274-4e6d6c656ee9-c000.json.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/18112019[125413]_graphOutputJSON.txt/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/18112019[125413]_graphOutputJSON.txt/part-00000-d1767836-3213-428e-8274-4e6d6c656ee9-c000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/18112019[125413]_graphOutputJSON.txt/part-00001-d1767836-3213-428e-8274-4e6d6c656ee9-c000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/19112019[103837]_graphOutputJSON.txt/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/19112019[103837]_graphOutputJSON.txt/.part-00000-aa39f195-5433-4f78-bfb4-3cc5606df101-c000.json.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/19112019[103837]_graphOutputJSON.txt/.part-00001-aa39f195-5433-4f78-bfb4-3cc5606df101-c000.json.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/19112019[103837]_graphOutputJSON.txt/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/19112019[103837]_graphOutputJSON.txt/part-00000-aa39f195-5433-4f78-bfb4-3cc5606df101-c000.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/19112019[103837]_graphOutputJSON.txt/part-00001-aa39f195-5433-4f78-bfb4-3cc5606df101-c000.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/graphanalysis/GraphBuilder.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/graphx/graphanalysis/GraphBuilder.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/graphanalysis/RunGraph.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/graphx/graphanalysis/RunGraph.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/graphx/OverlappingCommunityDetection.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ocdetection/OverlappingCommunityDetection.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/graphx/RunGraphTwitter.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/graphx/RunGraphTwitter.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/graphx/RunGraphXTwitter.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/graphx/RunGraphXTwitter.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/graphx/TriangleCounting.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/graphx/TriangleCounting.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/graphx/berkeleyLab10example.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/graphx/berkeleyLab10example.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/graphx/clustering/TransitiveClosure.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/graphx/clustering/TransitiveClosure.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/graphx/sparklingGraphTwitter.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphanalysis/GraphBuilder$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphanalysis/GraphBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphanalysis/RunGraph$$anonfun$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphanalysis/RunGraph$$anonfun$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphanalysis/RunGraph$$anonfun$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphanalysis/RunGraph$$anonfun$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphanalysis/RunGraph$$anonfun$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphanalysis/RunGraph$$anonfun$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphanalysis/RunGraph$$anonfun$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphanalysis/RunGraph$$anonfun$8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphanalysis/RunGraph$$anonfun$connectedComponents$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphanalysis/RunGraph$$anonfun$connectedComponents$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphanalysis/RunGraph$$anonfun$neighbourhoodAggregation$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphanalysis/RunGraph$$anonfun$simpleGraphOperations$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphanalysis/RunGraph$$anonfun$simpleGraphOperations$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphanalysis/RunGraph$$anonfun$structuralOperations$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphanalysis/RunGraph$$anonfun$subgraph$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphanalysis/RunGraph$$anonfun$subgraph$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphanalysis/RunGraph$$anonfun$subgraph$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphanalysis/RunGraph$$anonfun$subgraph$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphanalysis/RunGraph$$anonfun$subgraph$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphanalysis/RunGraph$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphanalysis/RunGraph.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/KUKURUKUgraphxTwitter$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/KUKURUKUgraphxTwitter$$anonfun$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/KUKURUKUgraphxTwitter$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/KUKURUKUgraphxTwitter$$anonfun$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/KUKURUKUgraphxTwitter$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/KUKURUKUgraphxTwitter$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/KUKURUKUgraphxTwitter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/KUKURUKUgraphxTwitter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphTwitter$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphTwitter$$anonfun$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphTwitter$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphTwitter$$anonfun$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphTwitter$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphTwitter$$anonfun$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphTwitter$$anonfun$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphTwitter$$anonfun$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphTwitter$$anonfun$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphTwitter$$anonfun$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphTwitter$$anonfun$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphTwitter$$anonfun$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphTwitter$$anonfun$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphTwitter$$anonfun$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphTwitter$$anonfun$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphTwitter$$anonfun$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphTwitter$$anonfun$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphTwitter$$anonfun$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphTwitter$$anonfun$simpleGraphOperations$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphTwitter$$anonfun$simpleGraphOperations$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphTwitter$$anonfun$tryAgainGraph$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphTwitter$$anonfun$tryAgainGraph$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphTwitter$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphTwitter$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphTwitter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphTwitter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphXTwitter.sc" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/RunGraphXTwitter.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/berkeleyLab10example.sc" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/berkeleyLab10example.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/JaccardIndex$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/JaccardIndex$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/OperatorsNew$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/OperatorsNew$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/OperatorsNew$DSL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/OperatorsNew$DSL.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/OperatorsNew$ModularityDSL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/OperatorsNew$ModularityDSL.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/OperatorsNew.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/OperatorsNew.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/PreferentialAttachment$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/PreferentialAttachment$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/ResourceAllocation$$anonfun$computeValue$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/ResourceAllocation$$anonfun$computeValue$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/ResourceAllocation$$anonfun$computeValue$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/ResourceAllocation$$anonfun$computeValue$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/ResourceAllocation$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/ResourceAllocation$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/ResourceAllocation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/indices/ResourceAllocation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter$$anonfun$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter$$anonfun$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter$$anonfun$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter$$anonfun$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/graphx/sparklingGraphTwitter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/ssExtractDependencies/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/ssExtractDependencies/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
